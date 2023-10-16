@@ -1,0 +1,174 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+   height: 100%;
+}
+#SlideMenu1 ul
+{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#SlideMenu1 li a
+{
+   background-color: #E9E9E9;
+   display: inline
+   border-color: #DDDDDD;
+   border-style: solid;
+   border-width: 1px;
+   color: #333333;
+   cursor: pointer;
+   display: block;
+   left: 0;
+   font-weight: bold;
+   font-style: normal;
+   height: 16px;
+   margin: 0;
+   padding: 2px 2px 2px 5px;
+   position: relative;
+   top: 0;
+   text-decoration: none;
+   text-align: left;
+}
+#SlideMenu1 li a:hover
+{
+   background-color: #E9E9E9;
+   border-color: #DDDDDD;
+   color: #333333;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+}
+#SlideMenu1 li li a
+{
+   background-color: #F6F6F6;
+   border-color: #C5C5C5;
+   border-style: solid;
+   border-width: 1px;
+   color: #454545;
+   display: block;
+   font-weight: normal;
+   font-style: normal;
+   height: 16px;
+   margin: 1px 0 1px 0 ;
+   padding: 2px 2px 2px 5px;
+   text-decoration: none;
+}
+#SlideMenu1 li li a:hover
+{
+   background-color: #EDEDED;
+   border-color: #CCCCCC;
+   color: #2B2B2B;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+}
+#InlineFrame1
+{
+   border: 1px solid #C0C0C0;
+   border-radius: 0px;
+   margin: 0;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 16px;
+}
+#wb_Text1 p, #wb_Text1 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#InlineFrame1
+{
+   position: absolute;
+   left: 0px;
+   top: 42px;
+   width: 90%;
+   min-width: 200px;
+   height: 90%;
+   z-index: 2;
+}
+#SlideMenu1
+{
+   position: absolute;
+   left: 1px;
+   top: 42px;
+   width: 121px;
+   height: 140px;
+   z-index: 1;
+}
+#wb_Text1
+{
+   position: absolute;
+   top: 15px;
+   width: 100%
+   height: 15px;
+   text-align: center;
+   z-index: 3;
+}
+@media only screen and (max-width: 969px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#BuildWith1
+{
+   left: 441px;
+   top: 100%;
+   width: 88px;
+   height: 31px;
+   visibility: visible;
+   display: inline;
+}
+#SlideMenu1
+{
+   left: 1px;
+   top: 42px;
+   width: 121px;
+   height: 140px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#InlineFrame1
+{
+   left: 0px;
+   top: 42px;
+   width: 100%;
+   height: 100vh;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   color: #000000;
+   font-size: 13px;
+   font-family: Arial;
+   font-style: normal;
+   text-decoration: none;
+}
+}
